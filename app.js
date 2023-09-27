@@ -13,7 +13,7 @@ window.requestAnimFrame = (function () {
   
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
-  const customText = urlParams.get('text') || 'Yong Xin MON';
+  const customText = urlParams.get('text') || 'Hello WORLD';
   const space = '                        ';
   const txt = space + customText;
   
